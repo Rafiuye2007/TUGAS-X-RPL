@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content=
+        "width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Landing Page</title>
+</head>
+  
+<body>
+    <nav>
+        <div class="heading">Landing Page</div>
+        <span class="sideMenuButton" 
+            onclick="openNavbar()">
+            ☰
+        </span>
+  
+        <div class="navbar">
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </div>
+    </nav>
+  
+    <!-- Side navigation bar for 
+        responsive website -->
+    <div class="sideNavigationBar" 
+        id="sideNavigationBar">
+        <a href="#" class="closeButton" 
+            onclick="closeNavbar()">
+            ❌
+        </a>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Sign Up</a>
+    </div>
+  
+    <!-- Content -->
+    <div class="line" id="Home">
+        <div class="side1">
+            <h1>Belajar Codingan Di GeeksForGeeks</h1>
+            <button>
+                <a href=
+"https://www.geeksforgeeks.org/">
+                    Telusuri Lebih lanjut
+                </a>
+            </button>
+        </div>
+        <div class="side2">
+            <img src=
+"https://media.geeksforgeeks.org/wp-content/cdn-uploads/20220401124017/HTML-Tutorial.png"
+                width="500">
+        </div>
+    </div>
+  
+    <section class="about" id="My Projects">
+        <div class="content">
+            <div class="title">
+                <span>Courses</span>
+            </div>
+            <div class="boxes">
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            DSA
+                        </a>
+                    </div>
+                    <div  class="box3">
+                    <p>
+                        Istilah DSA adalah singkatan dari Data
+                        Struktur dan Algoritma. Sebagai
+                        namanya sendiri menyarankan, itu
+                        adalah kombinasi dari dua
+                        terpisah namun saling terkait
+                        topik
+                    </p>
+                </div>
+                <div class="box">
+  
+                    <div class="topic"  class="box2">
+                        <a href="" target="_blank">
+                            HTML
+                        </a>
+                    </div>
+                    <p>HTML adalah singkatan dari HyperText
+                        Language Markup. Ini digunakan
+                        untuk mendesain halaman web menggunakan
+                        bahasa markup.
+                    </p>
+                </div>
+  
+                <div class="box">
+                    <div class="topic">
+                        <a href="" target="_blank">
+                            Javascript
+                        </a>
+                    </div>
+                    <p class="box1">
+                        JavaScript (JS) adalah yang paling banyak
+                        populer ringan, ditafsirkan
+                        bahasa pemrograman yang dikompilasi
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    <section class="contact" id="contact">
+        <div class="content">
+            <div class="title"><span>Masuk</span></div>
+            <div class="contactMenu">
+                <div class="input1">
+                    <div class="label1">Nama anda</div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Masukan Nama Mu Disini">
+                    </div>
+                    <div class="label1">
+                        <label>Email Anda</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Masukan Email Mu Disini">
+                    </div>
+                    <div class="label1">
+                        <label>Password Anda</label>
+                    </div>
+                    <div class="input2">
+                        <input type="text" 
+                            placeholder="Masukan Password Mu Disini">
+                    </div>
+                    <div class="button">
+                        <button>Mendaftar</button>
+                    </div>
+                </div>
+                <div class="input3">
+                    <div class="rightside1">
+                        <div class="title1">
+                            <span>
+                                Contact Us
+                            </span>
+                        </div>
+                        <div class="content1">
+                            A-143, 9th Floor, Sovereign 
+                            Corporate Tower, Sector-136, 
+                            Noida, Uttar Pradesh - 201305
+                        </div>
+                        <div class="title1">
+                            <span>Informasi Lebih Lanjut</span>
+                        </div>
+                        <div class="content1">
+                            Salam untuk semua Geeks di luar sana!
+                            Kami menyambut Anda di platform tempat kami
+                            konsisten berusaha memberikan yang terbaik
+                            pendidikan. Platform ini telah
+                            dirancang untuk setiap geek yang ingin
+                            memperluas pengetahuan mereka, berbagi mereka
+                            pengetahuan dan siap untuk mengambil mereka
+                            pekerjaan impian. Kami memiliki jutaan artikel,
+                            langsung serta kursus online, ribuan
+                            tutorial dan banyak lagi hanya untuk
+                            geek inside you.Terima kasih telah memilih
+                            dan mendukung kami!
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer section -->
+    <footer>
+        <div class="footer">
+            <span>
+                Created By
+                <a href="https://www.geeksforgeeks.org/" 
+                    target="_blank">
+                    Rafi Ardiansyah
+                </a>
+            </span>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+  
+</html>
